@@ -1,0 +1,18 @@
+.container {
+  height: 3.75rem;
+  margin: 2rem 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 2rem 0;
+  border-bottom: 1px solid rgb(215, 221, 233);
+  gap: 8px;
+
+  .wellcome {
+    font-size: 2rem;
+  }
+
+  .date {
+    color: rgb(117, 117, 117);
+  }
+}
