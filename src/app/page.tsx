@@ -1,6 +1,7 @@
-import Header from "@/components/Header/Header";
+
+import Header from "../components/Header/Header";
 import style from "./page.module.scss";
-import Tasks from "@/components/Tasks/Tasks";
+import Tasks from "../components/Tasks/Tasks";
 
 export default function Home() {
   return (
