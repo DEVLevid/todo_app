@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import style from "./styles.module.scss";
-import { tasks as initialTasks } from "@/app/data/tasks";
+import { tasks as initialTasks } from "@/data/tasks";
 import Modal from "../Modal/modal";
 
 
@@ -77,7 +77,7 @@ export default function Tasks() {
                   className={style.deleteBtn}
                   onClick={() => handleOpenDeleteTaskModal(task.id)}
                 >
-                  <img src="/delete.svg" alt="deleteBtn" />
+                  <img src="/icon.png" alt="deleteBtn" />
                 </button>
               </div>
             ))}
@@ -103,7 +103,7 @@ export default function Tasks() {
                   className={style.deleteBtn}
                   onClick={() => handleOpenDeleteTaskModal(task.id)}
                 >
-                  <img src="/delete.svg" alt="deleteBtn" />
+                  <img src="/icon.png" alt="deleteBtn" />
                 </button>
               </div>
             ))}
