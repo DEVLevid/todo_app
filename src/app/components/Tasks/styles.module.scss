@@ -206,6 +206,22 @@
 
 @media (max-width: 850px) {
   .mainContainer {
+
+    .container {
+      max-width: fit-content;
+      height: auto;
+      margin: 0;
+    }
+
+    .taskContainer {
+      max-width: 70vw;
+      margin-top: 0;
+    }
+
+    .addBtn {
+      width: 70vw;
+      margin-bottom: 2rem;
+    }
     .deleteBtnModal {
       position: initial;
       width: 100%;
