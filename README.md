@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Teste Técnico - Aplicação de Gerenciamento de Tarefas
 
-## Getting Started
+Bem-vindo ao repositório do todo_app, aplicação web para gerenciamento de tarefas! Esta aplicação foi desenvolvida para demonstrar habilidades em front-end e boas práticas de desenvolvimento.
 
-First, run the development server:
+## Descrição do Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Este projeto é um teste técnico que simula uma aplicação de gerenciamento de tarefas, incluindo funcionalidades de criação, conclusão e exclusão de tarefas. A aplicação é construída com NextJs e TypeScript.
+
+### Funcionalidades
+
+- **Exibe Tarefas:** Exibe as tarefas que ainda não foram realizadas e as que ja foram realizadas de forma dinâmica.
+- **Criar uma nova tarefa** Permite que os usuários criem uma nova tarefa na lista de tarefas a serem realizadas.
+- **Conclui uma tarfea:** marca como concluida a tarefa previamente criada.
+- **Deleta as tarefas:** Permite deletar tarefas caso o usuário julgue necessário.
+
+## Tecnologias Utilizadas
+
+- **Nextjs:** Biblioteca para construção da interface do usuário.
+- **TypeScript:** Superset do JavaScript que adiciona tipagem estática.
+- **SASS:** Pré-processador CSS para estilização.
+
+## Como instalar o projeto 
+- Primeiro passo é clonar o repositório em sua máquina utilizando o seguinte comando:
 ```
+git clone [https://github.com/DEVLevid/product_CRUD/tree/master](https://github.com/DEVLevid/todo_app)
+```
+- Instale todas as dependências necessárias através do comando ```npm install```.
+- Instaladas as dependências, podemos executar o projeto utilizando o comando ```npm run dev``` e navegar pela URL ```http://localhost:3000/```.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  ## Deploy
+  Acesse o resultado final da aplicação através do Link https://legaplan-todo-app.vercel.app/
+  
