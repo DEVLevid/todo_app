@@ -73,7 +73,7 @@ export default function Tasks() {
                   />
                   <p>{task.name}</p>
                 </div>
-                <img src="/images/icon.png" alt="" onClick={() => handleOpenDeleteTaskModal(task.id)}/>
+                <img src="/delete.png" alt="" onClick={() => handleOpenDeleteTaskModal(task.id)}/>
               </div>
             ))}
         </div>
@@ -94,7 +94,7 @@ export default function Tasks() {
                   />
                   <p>{task.name}</p>
                 </div>
-                <img src="/images/icon.png" alt="" onClick={() => handleOpenDeleteTaskModal(task.id)}/>
+                <img src="/delete.png" alt="" onClick={() => handleOpenDeleteTaskModal(task.id)}/>
               </div>
             ))}
         </div>
