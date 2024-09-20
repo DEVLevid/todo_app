@@ -77,7 +77,7 @@ export default function Tasks() {
                   className={style.deleteBtn}
                   onClick={() => handleOpenDeleteTaskModal(task.id)}
                 >
-                  <img src="/icon.png" alt="deleteBtn" />
+                  <img src="/images/icon.png" alt="deleteBtn" />
                 </button>
               </div>
             ))}
@@ -103,7 +103,7 @@ export default function Tasks() {
                   className={style.deleteBtn}
                   onClick={() => handleOpenDeleteTaskModal(task.id)}
                 >
-                  <img src="/icon.png" alt="deleteBtn" />
+                  <img src="/images/icon.png" alt="deleteBtn" />
                 </button>
               </div>
             ))}
