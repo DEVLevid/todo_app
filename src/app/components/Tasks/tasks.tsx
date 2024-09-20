@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import style from "./styles.module.scss";
-import { tasks as initialTasks } from "@/data/tasks";
-import Modal from '@/components/Modal/modal';
+import { tasks as initialTasks } from "@/app/data/tasks";
+import Modal from "../Modal/modal";
 
 
 export default function Tasks() {
