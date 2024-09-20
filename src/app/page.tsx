@@ -1,7 +1,8 @@
 
-import Header from "../components/Header/Header";
-import Tasks from "../components/Tasks/Tasks";
+import Header from "@/components/Header/header";
 import style from "./page.module.scss";
+import Tasks from "@/components/Tasks/tasks";
+
 
 export default function Home() {
   return (

@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import style from "./styles.module.scss";
 import { tasks as initialTasks } from "@/data/tasks";
-import Modal from "../Modal/Modal";
+import Modal from '@/components/Modal/modal';
+
 
 export default function Tasks() {
   const [tasks, setTasks] = useState(initialTasks);
