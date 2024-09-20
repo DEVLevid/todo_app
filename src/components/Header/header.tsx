@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './styles.module.scss'
 
-export default function header() {
+export default function Header() {
   return (
     <div className={style.container}>
       <img src='/logo.svg' alt="logo"/>

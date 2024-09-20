@@ -1,0 +1,31 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+  z-index: 1000;
+}
+
+.modal {
+  width: 28.125rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.closeBtn {
+  background: rgb(231, 238, 251);
+  width: 11.5625rem;
+  height: 51px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
