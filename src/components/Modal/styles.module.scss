@@ -13,6 +13,8 @@
 
 .modal {
   width: 28.125rem;
+  height: auto;
+  position: absolute;
   background: white;
   padding: 2rem;
   border-radius: 1rem;
@@ -22,10 +24,30 @@
 }
 
 .closeBtn {
+  position: relative;
   background: rgb(231, 238, 251);
   width: 11.5625rem;
   height: 51px;
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  left: 0;
+}
+
+@media (max-width: 850px) {
+  .overlay {
+    background: white;
+    align-items: flex-start;
+    justify-content: start;
+  }
+
+  .modal{
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .closeBtn {
+    width: 100%;
+    top: 2rem;
+  }
 }
