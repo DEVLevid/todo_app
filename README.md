@@ -1,4 +1,3 @@
-
 # Teste Técnico - Aplicação de Gerenciamento de Tarefas
 
 Bem-vindo ao repositório do todo_app, aplicação web para gerenciamento de tarefas! Esta aplicação foi desenvolvida para demonstrar habilidades em front-end e boas práticas de desenvolvimento.
